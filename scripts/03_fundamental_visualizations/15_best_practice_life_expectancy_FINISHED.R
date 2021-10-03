@@ -17,3 +17,9 @@ life_expectancy <- world_bank_countries %>%
   ungroup()
 
 
+life_expectancy %>% 
+  ggplot(aes(x = year,
+             ymin = min,
+             ymax = max,
+             fill = continent)) +
+  geom_ribbon(alpha = .2)
