@@ -9,4 +9,5 @@ world_bank_income %>%
              y = co2_emissions_tons_per_capita,
              label = round(co2_emissions_tons_per_capita, 2))) +
   geom_col() +
-  geom_text()
+  geom_text(position = position_stack(vjust = 0.5),
+            color = "white")
