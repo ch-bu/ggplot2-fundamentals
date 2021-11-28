@@ -12,4 +12,7 @@ world_bank_income %>%
   ggplot(aes(x = income_group,
              y = co2_emissions_tons_per_capita,
              fill = year)) +
-  geom_col(alpha = .8, position = position_dodge(.8), width = .75)
+  geom_col(alpha = .8, position = position_dodge(.8), 
+           width = .75) +
+  scale_y_continuous(breaks = seq(0, 12, 2)) +
+  scale_fill_hue(h = c(40, 240), c = 60)

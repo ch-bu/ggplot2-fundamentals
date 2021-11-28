@@ -17,4 +17,9 @@ renewable_energy %>%
   geom_point(aes(fill = country), color = "white", shape = 21,
              size = 2) +
   geom_text(aes(label = country), data = labels, 
-            hjust = 0, nudge_x = 0.5)
+            hjust = 0, nudge_x = 0.5) +
+  scale_x_continuous(limits = c(1990, 2020)) +
+  scale_color_manual(values = c("steelblue", rep("grey", 3)),
+                     guide = "none") +
+  scale_fill_manual(guide = "none",
+                    values = c("steelblue", rep("grey", 3)))

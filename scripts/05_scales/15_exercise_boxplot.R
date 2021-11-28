@@ -10,4 +10,7 @@ world_bank_countries %>%
       fct_relevel("Oceania", "Europe", "Asia", "Americas", "Africa")) %>%
   ggplot(aes(x = continent,
              y = overweight,
-             fill = year))
+             fill = year)) +
+  geom_boxplot(width = 0.75, 
+               alpha = .8,
+               position = position_dodge2(padding = 0.1))
