@@ -33,4 +33,4 @@ forests %>%
     x = "",
     fill = "",
     caption = "Source: Worldbank - World Development Indicator"
-  ) 
+  )
