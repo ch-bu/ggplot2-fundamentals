@@ -1,4 +1,4 @@
-![](https://res.cloudinary.com/dmwucy9gz/image/upload/v1640719076/logo_github_dy9bmc.png)
+![](https://res.cloudinary.com/dmwucy9gz/image/upload/v1640767774/logo_github_g0hhi0.png)
 
 # ggplot2 fundamentals
 
