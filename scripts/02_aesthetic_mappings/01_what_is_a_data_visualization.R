@@ -103,7 +103,7 @@ world_bank_countries %>%
            y = 69, yend = 73.6,
            linetype = "dashed") 
 
-
+# We map aesthetic properties of geometric objects to data variables
 
 # Impossible mapping ------------------------------------------------------
 world_bank_countries %>% 
